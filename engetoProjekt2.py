@@ -105,13 +105,13 @@ def outcome(bulls: int, cows: int) -> None:
         if bull == 1:
             return "bull"
         elif bull != 1:
-            return "bulls"
+            return "bull"
 
     def outcome_cow(cow: int) -> str:
         if cow == 1:
             return "cow"
         elif cow != 1:
-            return "cows"
+            return "cow"
 
     outcome_bulls = outcome_bull(bulls)
     outcome_cows = outcome_cow(cows)
