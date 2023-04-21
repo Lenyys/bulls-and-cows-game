@@ -145,7 +145,6 @@ def main():
         number_of_guessing_numbers = how_many_numbers_input()
         print(separator)
         numbers = get_numbers_to_guessing(number_of_guessing_numbers)
-        print(numbers)
         while True:
             number_of_tries += 1
             user_input_numbers = numbers_input(number_of_guessing_numbers)
